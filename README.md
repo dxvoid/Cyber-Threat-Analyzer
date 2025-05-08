@@ -1,8 +1,7 @@
 # Cyber-Threat-Analyzer
 Real-Time SIEM-like Cybersecurity Dashboard Using Power BI
-# CyberThreat Analyzer Pro
 
-A real-time SIEM-like dashboard that visualizes simulated Windows/Linux attack logs using Power BI — all offline with no external API dependency.
+It is a dashboard that visualizes and simulated Windows/Linux attack logs using Power BI — all offline with no external API dependency.
 
 ## Features
 - Collects and parses system logs (Windows/Linux)
