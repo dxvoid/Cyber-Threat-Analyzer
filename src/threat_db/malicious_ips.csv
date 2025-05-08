@@ -1,0 +1,3 @@
+ip_address,threat_type
+192.168.1.12,Brute Force
+10.0.0.5,Malware

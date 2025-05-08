@@ -1,35 +1,17 @@
-# Cyber-Threat-Analyzer
-Real-Time SIEM-like Cybersecurity Dashboard Using Power BI
+# CyberThreat Analyzer Pro (Offline Edition)
 
-It is a dashboard that visualizes and simulated Windows/Linux attack logs using Power BI — all offline with no external API dependency.
+## Overview
+An offline SIEM dashboard solution that simulates log collection and integrates static threat intelligence to visualize and report security events using Power BI.
 
-## Features
-- Collects and parses system logs (Windows/Linux)
-- Generates visuals for:
-  - CVE severity
-  - Attack types
-  - Top targeted ports/IPs
-  - Threat timelines
-- Works offline with JSON/CSV logs
+## Components
+- Simulated logs (Windows & Linux)
+- Static threat intelligence (CSV)
+- Python scripts for parsing and correlation
+- Power BI dashboard placeholder
+- Ready for offline demo without any API calls
 
-## Folder Structure
-├── src/
+## How to Run
+1. Run `log_parser.py` to parse JSON logs into CSV.
+2. Run `threat_correlator.py` to enrich logs with threat intel.
+3. Import the resulting `correlated_logs.csv` into Power BI for visualization.
 
-├── logs/
-
-├── dashboards/
-
-├── threat_db/
-
-├── .gitignore
-
-├── LICENSE
-
-├── README.md
-
-
-## Technologies
-- Python
-- Power BI
-- JSON, CSV
-- Simulated attack logs
