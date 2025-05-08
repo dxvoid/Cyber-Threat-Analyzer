@@ -14,11 +14,17 @@ It is a dashboard that visualizes and simulated Windows/Linux attack logs using 
 
 ## Folder Structure
 ├── src/
+
 ├── logs/
+
 ├── dashboards/
+
 ├── threat_db/
+
 ├── .gitignore
+
 ├── LICENSE
+
 ├── README.md
 
 
